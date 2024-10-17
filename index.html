@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Cursor & Smooth Scrolling</title>
+    <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="nav-wrapper">
+        <nav>
+            <a href="#1" class="hover-this"><span>Section One</span></a>
+            <a href="#2" class="hover-this"><span>Section Two</span></a>
+            <a href="#3" class="hover-this"><span>Section Three</span></a>
+            <a href="#4" class="hover-this"><span>Section Four</span></a>
+            <a href="#5" class="hover-this"><span>Section Five</span></a>
+            <div class="cursor"></div>
+        </nav>
+    </div>
+
+    <div class="sections red" id="1">1</div>
+    <div class="sections green" id="2">2</div>
+    <div class="sections blue" id="3">3</div>
+    <div class="sections pink" id="4">4</div>
+    <div class="sections yellow" id="5">5</div>
+
+    <script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
